@@ -67,10 +67,11 @@ def readStream(stream):
         raise Exception('Failed reading data, most likely not encoded as UTF-8:\n%s' % e)
 
 if __name__ == '__main__':
-    if sys.platform == "win32":
-        import os
-        import msvcrt
-        msvcrt.setmode(sys.stdout.fileno(), os.O_BINARY)
-
-    data = addChecksum(readStream(sys.stdin))
+    # if sys.platform == "win32":
+    #     import os
+    #     import msvcrt
+    #     msvcrt.setmode(sys.stdout.fileno(), os.O_BINARY)
+    with open("EntLittlAt","rb") as f:
+        file_data = f.read()
+    data = addChecksum(file_data)
     sys.stdout.write(data.encode('utf-8'))
