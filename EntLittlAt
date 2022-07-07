@@ -1,18 +1,20 @@
 [Adblock Plus 2.0]
-! Checksum: j9tbeM1z5yb/XN1GsTvpqA
+! Checksum: 
 ! Version: 1
 ! Title: EntLittlAt
 ! Expires: 10 days
 ! Homepage: https://github.com
 
+
 eastmoney.com###IndexDT
 eastmoney.com###openinapp
 eastmoney.com###open_app
 eastmoney.com###ad-header
+eastmoney.com###swiper-ad
 eastmoney.com###topDTT
 eastmoney.com###ad_top
 eastmoney.com##.download_guide
 eastmoney.com##.fold-btn
-eastmoney.com##.comm-more
+!eastmoney.com##.comm-more
 m.kuwo.cn###top
 m.kuwo.cn##.down
