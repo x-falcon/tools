@@ -3,7 +3,7 @@
 ! Version: 1
 ! Title: EntLittlAt
 ! Expires: 10 days
-! Homepage: https://github.com
+! Homepage: https://github.com/x-falcon/tools/edit/master/EntLittlAt
 
 @@||eastmoney.com/web/prd/jump_tracker.js
 eastmoney.com###IndexDT
@@ -16,6 +16,11 @@ eastmoney.com###topDTT
 eastmoney.com###ad_top
 eastmoney.com##.download_guide
 eastmoney.com##.fold-btn
-!eastmoney.com##.comm-more
+eastmoney.com##.swipe-banner
+eastmoney.com##.float-button
+eastmoney.com##.my-ad2
+eastmoney.com##.ad-box
+
+
 m.kuwo.cn###top
 m.kuwo.cn##.down
